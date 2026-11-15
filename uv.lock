@@ -912,6 +912,7 @@ dependencies = [
     { name = "langchain-classic" },
     { name = "langchain-community" },
     { name = "langchain-core" },
+    { name = "langchain-experimental" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
@@ -931,6 +932,7 @@ requires-dist = [
     { name = "langchain-classic", specifier = ">=1.0.8" },
     { name = "langchain-community", specifier = ">=0.4.2" },
     { name = "langchain-core", specifier = ">=1.7.7" },
+    { name = "langchain-experimental", specifier = ">=0.4.2" },
     { name = "langchain-ollama", specifier = ">=1.1.0" },
     { name = "langchain-openai", specifier = ">=1.7.4" },
     { name = "langchain-text-splitters", specifier = ">=1.1.3" },
@@ -1043,6 +1045,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/27/95/c40e914f5b518c135c826e041e76db28179e884ba9ed8649dfd9eca6637b/langchain_core-1.7.7.tar.gz", hash = "sha256:acc4205b5617f36cc0495ee77af7b3eedf8714941c7c14a40220be52770d4536", size = 1041952, upload-time = "2026-11-10T04:08:10.069Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6b/f3/7a5831e2820239848e64cc0571adb3c0eba7010364fe3c2043cf630e4691/langchain_core-1.7.7-py3-none-any.whl", hash = "sha256:d69535f817e9ea949dabc85079dccc28b0cde04a579ec5c2273be2f7b09b859c", size = 580684, upload-time = "2026-11-10T04:08:08.278Z" },
+]
+
+[[package]]
+name = "langchain-experimental"
+version = "0.4.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-community" },
+    { name = "langchain-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d9/1c/8240195c1b27f2c45b2ee93a07b2a5a466c92dec8881fc1213ec8e3cb6a8/langchain_experimental-0.4.2.tar.gz", hash = "sha256:1130fa7ecad5959e687295b2f7850ae3e5d8eeee6796bf9e99910806475d8acc", size = 172068, upload-time = "2026-05-22T20:38:42.184Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f1/ce/5c56f08407648ab897b119a4add46391560a144285cf89e060091bc793e9/langchain_experimental-0.4.2-py3-none-any.whl", hash = "sha256:fd98b9948cb6f991e0f632ea3d5fb839bcfe21e6d5a190a51126a76270a66d40", size = 211226, upload-time = "2026-05-22T20:38:40.678Z" },
 ]
 
 [[package]]
